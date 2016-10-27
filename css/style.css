@@ -1,7 +1,22 @@
 img {
+  width: 100%;
   max-width: 100%;
 }
 
 .card {
   padding: 0;
+  margin: 0 7px;
+}
+
+.jumbotron, .navbar {
+  border-radius: 0;
+}
+
+.card img {
+  height: 250px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
