@@ -41,3 +41,31 @@ footer {
 footer p {
   margin-bottom: 5px;
 }
+
+.navbar-light .navbar-nav .nav-link{
+  color: rgb(215, 213, 213);
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-nav .active .nav-link{
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active .nav-link:hover{
+  color: #fff;
+}
+
+.navbar-light .navbar-nav  .nav-link:hover{
+  color: rgb(215, 213, 213);
+}
+
+.navbar-light .navbar-brand{
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: #fff;
+}
